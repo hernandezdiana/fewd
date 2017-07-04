@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	letter-spacing: .02em;
+	width: 950px;
+	margin: 15px auto;
+	margin: 3px auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+nav {
+	word-spacing: 100px;
+	text-align: center;
+	margin-top: 13px;
+}
+
+nav a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #7B98AA;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: #44545e;
+}
+
+header {
+	background-image: url('../images/blog_header_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 130px 560px;
+	height: auto;
+ 	margin: 13px 90px 45px -90px;
+	text-align: center;
+}
+
+h1 a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 37px;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-decoration: none;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	margin-left: -150px;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #44545e;
+	text-align: left;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #44545e;
+	text-align: left;
+	margin-bottom: 35px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #44545e;
+	text-align: justify;
+	hyphens: auto;
+	line-height: 1.4em;
+}
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+	padding: 10px 0 10px 0;
+}
+
+div {
+	display: flex;
+	flex-direction: row;
+}
+
+article {
+	width: 75%;
+	margin: 35px 35px 35px -45px;
+}
+
+article p {
+	margin-bottom: 35px;
+}
+
+aside {
+	width: 25%;
+	margin: 40px -35px 0 65px;
+}
+
+aside img {
+	margin-top: 15px;
+	margin-bottom: 45px;
+}
+
+aside li {
+	margin-bottom: 12px;
+	margin-left: -23px;
+}
+
+aside a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #7B98AA;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #CDF3F6;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 10px;
+
+}
+
+hr {
+	border-color: #44545E;
+	border-width: thin;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+footer p {
+	text-align: center;
+	margin-top: 15px;
+}
+
+footer p a {
+	font-weight: bold;
+}
+
+footer a {
+	text-decoration: none;
+	color: #44545E;
+}
+
+footer a i {
+	padding: 12px;
+	margin-top: 20px;
+}
